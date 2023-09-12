@@ -23,7 +23,7 @@ const RegisterComponent = () => {
   const RegisterUser = (e) => {
     e.preventDefault()
 
-    Axios.post("https://chat-app-backend-sypi.onrender.com/RegisterUser", RegInfo).then(() => {
+    Axios.post("https://chat-app-backend-jdg9.onrender.com/RegisterUser", RegInfo).then(() => {
 
       console.log("Registered");
 
