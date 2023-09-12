@@ -26,7 +26,7 @@ const LoginComponents = () => {
  const Submit = (e) => {
     e.preventDefault();
 
-    Axios.post("http://localhost:3001/loginUser", loginInfo).then((response) => {
+    Axios.post("https://chat-app-backend-jdg9.onrender.com/loginUser", loginInfo).then((response) => {
 
     const token = response.data;
 
@@ -50,7 +50,7 @@ const LoginComponents = () => {
 
   useEffect(() => {
 
-    Axios.get("http://localhost:3001/LoggedIn").then((response) => {
+    Axios.get("https://chat-app-backend-jdg9.onrender.com/LoggedIn").then((response) => {
 
    
   
