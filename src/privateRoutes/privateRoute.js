@@ -17,7 +17,7 @@ const PrivateRoutes = () => {
 
   useEffect(() => {
 
-    Axios.get("http://localhost:3001/LoggedIn").then((response) => {
+    Axios.get("https://chat-app-backend-jdg9.onrender.com/LoggedIn").then((response) => {
 
     console.log(response)
       
